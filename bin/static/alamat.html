@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Alamat Alamat</title>
+</head>
+<body ng-app="oauthClient">
+	<h1>Daftar Alamat</h1>
+	<div ng-controller="DemoController">
+		<table border="1">
+			<thead>
+				<tr>
+					<th>Jalan</th>
+					<th>Kota</th>
+					<th>Propinsi</th>
+					<th>Kode Pos</th>
+					<!-- <th>&nbsp;</th> -->
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="a in dataAlamat.content">
+					<td>{{a.jalan}}</td>	
+					<td>{{a.kota}}</td>
+					<td>{{a.propinsi}}</td>	
+					<td>{{a.kodepos}}</td>
+					<!-- <td><button ng-click="hapusAlamat(a)">hapus</button></td> -->				
+				</tr>
+			</tbody>	
+		</table>
+	</div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="js/app.js"></script>
+</body>
+</html>
