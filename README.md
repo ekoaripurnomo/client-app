@@ -77,17 +77,6 @@
 		<br>
 		Nama : {{nama}}
 	```
-	
-* edit script app.js untuk check response script dengan result "test"
-	
-	```js
-	aplikasi.controller('DemoController', function($scope){
-		$scope.requestKeResourceServer = function(){
-			$scope.responseDariServer = "test";
-		};
-	});
-	```
-	
 * edit implicit-client.html
 	
 	```html
@@ -97,6 +86,16 @@
 		<div>
 			{{responseDariServer}}
 		</div>
+	```
+
+* edit script app.js untuk check response script dengan result "test"
+	
+	```js
+	aplikasi.controller('DemoController', function($scope){
+		$scope.requestKeResourceServer = function(){
+			$scope.responseDariServer = "test";
+		};
+	});
 	```
 	
 * edit script app.js
