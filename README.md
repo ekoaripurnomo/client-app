@@ -158,8 +158,10 @@
 	```
 	
 	
-* add <button ng-click="ambilTokenDariUrl()">Ambil Token dari Url</button> ke implicit-client.html utk button get token
-
+* add  button ambil token ke implicit-client.html utk button get token
+	```txt
+	<button ng-click="ambilTokenDariUrl()">Ambil Token dari Url</button>
+	```
 
 *  create script get token nya di app.js
 	
