@@ -201,7 +201,7 @@
 				alert('Belum login, silahkan login terlebih dahulu atau token belum di ambil');
 				return;
 			} 		
-			$http.get(resourceServerUrl+"?access_token="+$scope.token).then(
+			$http.get(resourceServerUrl+"?access_token="+token).then(
 				function(response){
 					$scope.responseDariServer = response.data;
 				},
