@@ -1,9 +1,11 @@
 # App Client
 * open start.spring.io
+	```txt
 	Gradle project, SpringBoot 1.5.3
 	Group = id.co.hanoman.training.client.app	
 	Artifact = client-app
 	dependencies = Web
+	```
 * create implicit-client.html di folder static
 	
 	```html
