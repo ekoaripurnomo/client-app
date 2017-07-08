@@ -127,7 +127,10 @@
 	@CrossOrigin
 	```
 	
-*  add <button ng-click="bukaLoginPage()">Login ke Server</button> ke implicit-client.html utk button authorize
+*  add button login ke implicit-client.html utk button authorize
+	```txt
+	<button ng-click="bukaLoginPage()">Login ke Server</button>
+	```
 *  create script authorize nya di app.js
 	
 	```js
